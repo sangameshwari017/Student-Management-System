@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Attendance</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Update Attendance</h1>
+
+<form action="UpdateAttendanceServlet" method="post">
+
+<label>Attendance ID</label>
+<input type="number" name="attendanceId" required>
+
+<label>Student ID</label>
+<input type="number" name="studentId" required>
+
+<label>Student Name</label>
+<input type="text" name="studentName" required>
+
+<label>Attendance Date</label>
+<input type="date" name="attendanceDate" required>
+
+<label>Status</label>
+
+<select name="status">
+    <option value="Present">Present</option>
+    <option value="Absent">Absent</option>
+</select>
+
+<br><br>
+
+<button type="submit">Update Attendance</button>
+
+</form>
+<a href="attendancemenu.html">
+<button>⬅ Back</button>
+</a>
+
+</div>
+
+</body>
+</html>

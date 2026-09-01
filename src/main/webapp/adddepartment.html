@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Department</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Add Department</h1>
+
+<form action="AddDepartmentServlet" method="post">
+
+<label>Department ID</label>
+<input type="number" name="did" required>
+
+<label>Department Name</label>
+<input type="text" name="dname" required>
+
+<label>HOD Name</label>
+<input type="text" name="hod" required>
+
+<label>Total Faculty</label>
+<input type="number" name="faculty" required>
+
+<label>Total Students</label>
+<input type="number" name="students" required>
+
+<br><br>
+
+<button type="submit">Add Department</button>
+
+</form>
+
+<a href="departmentmenu.html">
+    <button type="button">Back to Department Module</button>
+</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Student</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Add Student</h1>
+
+<form action="AddStudentServlet" method="post">
+
+<label>Student ID</label>
+<input type="number" name="sid" required>
+
+<label>Student Name</label>
+<input type="text" name="sname" required>
+
+<label>Age</label>
+<input type="number" name="age" required>
+
+<label>Gender:</label><br>
+
+<input type="radio" name="gender" value="Male" required> Male
+
+<input type="radio" name="gender" value="Female"> Female
+
+<input type="radio" name="gender" value="Other"> Other
+
+<br><br>
+
+<label>Date of Birth:</label>
+
+<input type="date" name="dob" required>
+
+<br><br>
+
+
+<label>Blood Group:</label>
+
+<select name="bloodgroup" required>
+
+<option value="">Select</option>
+
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+
+</select>
+
+<br><br>
+
+<label>Course</label>
+<input type="text" name="course" required>
+
+<label>City</label>
+<input type="text" name="city" required>
+
+<label>Mobile</label>
+<input type="text" name="mobile" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+
+
+<label>Parent Name:</label>
+
+<input type="text" name="parentname" required>
+
+<br><br>
+
+<label>Parent Mobile:</label>
+
+<input type="text" name="parentmobile" required>
+
+<br><br>
+
+<label>Address:</label>
+
+<textarea name="address" rows="4" cols="30" required></textarea>
+
+<br><br>
+
+<button type="submit">Add Student</button>
+
+</form>
+
+<a href="studentmenu.html">
+    <button type="button">⬅ Back to Student Module</button>
+</a>
+
+</div>
+
+</body>
+</html>

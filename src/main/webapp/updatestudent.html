@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Student</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Update Student</h1>
+
+<form action="UpdateStudentServlet" method="post">
+
+<label>Student ID</label>
+<input type="number" name="sid" required>
+
+<label>Student Name</label>
+<input type="text" name="sname" required>
+
+<label>Age</label>
+<input type="number" name="age" required>
+
+<label>Course</label>
+<input type="text" name="course" required>
+
+<label>City</label>
+<input type="text" name="city" required>
+
+<label>Mobile</label>
+<input type="text" name="mobile" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<br><br>
+
+<button type="submit">Update Student</button>
+
+</form>
+<a href="studentmenu.html">
+    <button type="button">Back to Student Module</button>
+</a>
+</div>
+
+</body>
+</html>

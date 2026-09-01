@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Faculty</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Add Faculty</h1>
+
+<form action="AddFacultyServlet" method="post">
+
+<label>Faculty ID</label>
+<input type="number" name="fid" required>
+
+<label>Faculty Name</label>
+<input type="text" name="fname" required>
+
+<label>Department</label>
+<input type="text" name="department" required>
+
+<label>Qualification</label>
+<input type="text" name="qualification" required>
+
+<label>Experience</label>
+<input type="number" name="experience" required>
+
+<label>Mobile</label>
+<input type="text" name="mobile" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<br><br>
+
+<button type="submit">Add Faculty</button>
+
+</form>
+
+<a href="facultymenu.html">
+    <button type="button">Back to Faculty Module</button>
+</a>
+</div>
+
+</body>
+</html>

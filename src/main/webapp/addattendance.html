@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Attendance</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Add Attendance</h2>
+
+<form action="AddAttendanceServlet" method="post">
+
+Attendance ID :
+<input type="number" name="attendanceId"><br><br>
+
+Student ID :
+<input type="number" name="studentId"><br><br>
+
+Student Name :
+<input type="text" name="studentName"><br><br>
+
+Attendance Date :
+<input type="date" name="attendanceDate"><br><br>
+
+Status :
+<select name="status">
+    <option value="Present">Present</option>
+    <option value="Absent">Absent</option>
+</select>
+
+<br><br>
+
+<input type="submit" value="Add Attendance">
+
+</form>
+
+
+<a href="attendancemenu.html">
+    <button type="button">Back to Attendance Module</button>
+</a>
+
+</body>
+</html>

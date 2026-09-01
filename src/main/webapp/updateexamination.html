@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Examination</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Update Examination</h1>
+
+<form action="UpdateExaminationServlet" method="post">
+
+<label>Exam ID</label>
+<input type="number" name="examId" required>
+
+<label>Student ID</label>
+<input type="number" name="studentId" required>
+
+<label>Student Name</label>
+<input type="text" name="studentName" required>
+
+<label>Exam Name</label>
+<input type="text" name="examName" required>
+
+<label>Exam Date</label>
+<input type="date" name="examDate" required>
+
+<label>Exam Time</label>
+<input type="time" name="examTime" required>
+
+<br><br>
+
+<button type="submit">Update Examination</button>
+
+</form>
+
+<a href="examinationmenu.html">
+<button>⬅ Back</button>
+</a>
+
+</div>
+
+</body>
+</html>
